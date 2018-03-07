@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class EachSolution implements Comparable<EachSolution> {
     private int totalEnergy;
     private int totalCost;
-    ArrayList<PowerLevel> oneSolution = new ArrayList<>();
+    private ArrayList<PowerLevel> oneSolution = new ArrayList<>();
 
     public void addPowerLevel (PowerLevel p){
         oneSolution.add(p);
