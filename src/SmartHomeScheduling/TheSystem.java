@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class TheSystem {
     int powerLevel;
     int timeInterval;
-    ArrayList<TimeInterval> SchedulingQueue;
+    private ArrayList<TimeInterval> SchedulingQueue;
 
     TheSystem(int pLevel, int tInterval){
         powerLevel = pLevel;
