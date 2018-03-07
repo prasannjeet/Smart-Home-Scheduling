@@ -3,7 +3,7 @@ package SmartHomeScheduling;
 import java.util.*;
 
 public class AllSolutions {
-    HashMap<Integer, ArrayList<EachSolution>> allSolutions = new HashMap<>();
+    private HashMap<Integer, ArrayList<EachSolution>> allSolutions = new HashMap<>();
 
     AllSolutions (TheSystem S){
         int powerLevel = S.powerLevel;
@@ -31,7 +31,7 @@ public class AllSolutions {
         }
     }
 
-    public void addOneSolution (EachSolution es){
+    private void addOneSolution(EachSolution es){
         if (allSolutions.containsKey(es.getTotalEnergy())){
             allSolutions.get(es.getTotalEnergy()).add(es);
         }
@@ -42,7 +42,7 @@ public class AllSolutions {
         }
     }
 
-    public void sortAll(){
+    private void sortAll(){
         Set<Integer> allKeys = allSolutions.keySet();
         for (Integer x : allKeys){
             Collections.sort(allSolutions.get(x));
