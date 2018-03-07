@@ -3,8 +3,8 @@ package SmartHomeScheduling;
 import java.util.ArrayList;
 
 public class TimeInterval {
-    int alpha; //Constant to calculate price
-    ArrayList<PowerLevel> SingleInterval;
+    private int alpha; //Constant to calculate price
+    private ArrayList<PowerLevel> SingleInterval;
 
     TimeInterval (int a){
         alpha = a;
