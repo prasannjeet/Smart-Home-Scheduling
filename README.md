@@ -16,7 +16,8 @@ Welcome to Smart Home Dynamic Programming Based Scheduling Algorithm
 We need following data from you:
 	1.	Total Power Levels
 	2.	Total Time Intervals
-	3.	Based on the above data, value of Alpha (The factor used to multiply energy consumption to find out total cost) at each time interval
+	3.	Based on the above data, value of Alpha (The factor used to multiply energy consumption 
+	    to find out total cost) at each time interval
 	4.	Based on the above data, energy consumption at each power level
 
 =================================================================================
